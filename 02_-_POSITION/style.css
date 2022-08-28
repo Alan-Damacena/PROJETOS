@@ -1,0 +1,11 @@
+.imagem_01{
+    width: 130px;
+    position: relative;
+    top:30px;
+    right: 15px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 90px;
+}
