@@ -9,10 +9,13 @@ body{
     width: 150px;
     border: 5px solid #505050;
     border-radius: 50%; 
+    display: block;
+    margin: 0 auto;
 }
 
 #title, .subtitle, .post_title{
-    color: #505050
+    color: #505050;
+    text-align: center;
 }
 
 #title{
@@ -56,6 +59,7 @@ a{
 .contact_list{
     list-style-type: none;
     padding-left: 15px;
+    text-align: center;
 }
 
 .contact_list li a{
