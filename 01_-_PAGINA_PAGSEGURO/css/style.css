@@ -16,12 +16,13 @@ body{
     background: white;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .logo{
     flex: 20%;
     margin-left: 10%;
-    text-align: center;
+    text-align: left;
 }
 
 .menu{
@@ -38,12 +39,12 @@ body{
 }
 
 .menu a:hover{
-    color: rgb(94, 233, 94);
+    color: rgb(9, 190, 130);
     border-top: 4px solid green;
 }
 
 #botao{
-    background: rgb(127, 245, 127);
+    background: rgb(41, 179, 144);
     padding: 10px 25px;
     color: white;
     border-radius: 5px;
@@ -53,23 +54,69 @@ body{
 
 #botao:hover{
     border: none;
-    background: rgb(102, 194, 102);
+    background: rgb(6, 124, 85);
 }
 
 header{
     display: flex;
     flex-flow: row wrap;
-    height: 600px;
-    background: gray;
+    justify-content: center;
+    align-items: center;
 }
 
 .headline{
     margin-left: 10%;
     flex: 40%;
-    border: 1px solid black;
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 65px;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p{
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn{
+    display: inline-block;
+    background: rgb(41, 179, 144);
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+    background: rgb(6, 124, 85);
 }
 
 .img-headline{
     margin-right: 10%;
     flex: 40%;
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
 }
