@@ -107,7 +107,6 @@ section{
     border: 1px solid black;
     margin-left: 5%;
     margin-right: 5%;
-    height: 400px;
     text-align: center;
     padding: 5%;
     width: 90%;
@@ -119,4 +118,17 @@ section h2{
     margin: 0;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid black;
 }
