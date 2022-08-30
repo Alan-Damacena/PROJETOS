@@ -39,7 +39,7 @@ body{
 }
 
 .menu a:hover{
-    color: rgb(9, 190, 130);
+    color: rgb(24, 146, 105);
     border-top: 4px solid green;
 }
 
@@ -54,7 +54,7 @@ body{
 
 #botao:hover{
     border: none;
-    background: rgb(6, 124, 85);
+    background: rgb(24, 146, 105);
 }
 
 header{
@@ -92,7 +92,7 @@ header{
 }
 
 .contact-btn:hover{
-    background: rgb(6, 124, 85);
+    background: rgb(24, 146, 105);
 }
 
 .img-headline{
@@ -104,12 +104,10 @@ header{
 section{
     display: inline-block;
     margin-top: 80px;
-    border: 1px solid black;
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
     padding: 5%;
-    width: 90%;
 }
 
 section h2{
@@ -131,4 +129,16 @@ section h2{
     padding: 20px;
     margin: 1%;
     border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background: rgb(24, 146, 105);
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img{
+    display: none;
 }
