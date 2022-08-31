@@ -17,6 +17,8 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+    position: fixed;
+    width: 100%;
 }
 
 .logo{
@@ -62,6 +64,7 @@ header{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 200px;
 }
 
 .headline{
@@ -141,4 +144,26 @@ section h2{
 
 .card:hover img{
     display: none;
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background: rgb(41, 179, 144);
+    text-align: center;
+    border-top: 5px solid green;
+}
+
+.logo-rodape{
+    padding:100px;
+}
+
+.agencia{
+    font-size: 34px;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
 }
