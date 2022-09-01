@@ -148,14 +148,15 @@ section h2{
 
 footer{
     margin-top: 100px;
-    height: 400px;
+    padding-bottom: 100px;
+
     background: rgb(41, 179, 144);
     text-align: center;
     border-top: 5px solid green;
 }
 
 .logo-rodape{
-    padding:100px;
+    padding-top:50px;
 }
 
 .agencia{
