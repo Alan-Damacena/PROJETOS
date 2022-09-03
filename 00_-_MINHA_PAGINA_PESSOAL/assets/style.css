@@ -11,6 +11,7 @@ body{
     border-radius: 50%;
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 #title, .subtitle, .post_title{

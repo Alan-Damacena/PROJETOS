@@ -1,34 +1,104 @@
-@media screen and (max-width: 1200px) {
-
-    *{
-        margin: 0 auto;
-        box-sizing: border-box;
-        max-width: 600px;
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (max-width: 992px) {
+    body{
+        max-width: 100%;
     }
-
+        
     .photo{
-        max-width: 100px;
+        width: 100px;
+        border: 3px solid black;  
+        margin-top: 12px;
     }
 
-    #title, .subtitle{
-        font-size: 20px;
-        padding: 5px;
+    #title, .subtitle, .post_title{
+        font-size: 25px;
     }
 
-    .post_title{
-        font-size: 15px;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-
-    .post_image{
-        display: none;
+    .post_title, .contact_list{
+        font-size: 18px;
     }
 
     .post{
-        max-width: 500px;
+        margin: 5px;
+    }
+
+    .post_content{
+        font-size: 15px;
+    }
+
+    .post_image{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (max-width: 768px) {
+    body{
+        max-width: 100%;
+    }
+        
+    .photo{
+        width: 80px;
+        border: 2px solid black;  
+        margin-top: 10px;
+    }
+
+    #title, .subtitle, .post_title{
+        font-size: 23px;
+    }
+
+    .post_title, .contact_list{
+        font-size: 15px;
+    }
+
+    .post{
+        margin: 5px;
+    }
+
+    .post_content{
+        font-size: 15px;
+    }
+
+    .post_image{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    body{
+        max-width: 100%;
+    }
+        
+    .photo{
+        width: 50px;
+        border: 1px solid black;  
+        margin-top: 10px;
+    }
+
+    #title, .subtitle, .post_title{
+        font-size: 20px;
+    }
+
+    .post_title, .contact_list{
+        font-size: 12px;
+    }
+
+    .post{
+        margin: 5px;
+    }
+
+    .post_content{
+        font-size: 12px;
+    }
+
+    .post_image{
+        width: 100%;
+        height: 150px;
     }
 
 }
+
+
