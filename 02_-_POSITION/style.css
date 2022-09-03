@@ -1,5 +1,9 @@
+*{
+    max-width: 100%;
+}
+
 .imagem_01{
-    width: 130px;
+    max-width: 130px;
     position: relative;
     top:30px;
     right: 15px;
@@ -8,4 +12,6 @@
 .titulo{
     text-align: center;
     font-size: 90px;
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
