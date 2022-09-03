@@ -1,0 +1,122 @@
+body{
+    background-image: url(./img/Imagem1.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Containers */
+.container{
+    display: flex;
+    font-size: 20px;
+}
+
+.container-01{
+    display: flex;
+    align-items: center;
+    padding: 30px 0px 10px 30px;
+}
+
+.container-02, .container-03{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#container-04{ 
+    display: none; /* a função "display: none" serve para ocultar o conteúdo da tela*/
+}
+
+#container-05{ 
+    display: none; /* a função "display: none" serve para ocultar o conteúdo da tela*/
+}
+
+#container-06{ 
+    display: none; /* a função "display: none" serve para ocultar o conteúdo da tela*/
+}
+
+#container-07{ 
+    display: none; /* a função "display: none" serve para ocultar o conteúdo da tela*/
+}
+
+/* Imagens */
+.img-01{
+    border-radius: 600px;
+    border: 5px solid rgba(231, 175, 138, 0.705);
+    width: 140px;
+}
+
+/* Elementos de Botão */
+.elemento-01{
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: rgba(231, 175, 138, 0.973);
+    border: 1px solid rgba(231, 175, 138, 0.705);
+    border: double;
+    width: 420px;
+    margin: 10px;  
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.elemento-01:hover{
+    background-color: antiquewhite;
+}
+
+/* Textos */
+#texto-01, #texto-03_1{
+    font-size: 25px;
+    text-align: center;
+    border: double;
+    border-color: rgba(231, 175, 138, 0.705);
+    width: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 45px;
+    background-color: antiquewhite;        
+}
+
+#texto-02, #texto-03_2{
+    font-size: 17px;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    border: double;
+    border-color: rgba(231, 175, 138, 0.705);
+    background-color: antiquewhite; 
+    padding: 20px;  
+}
+
+#texto-04{
+    font-size: 25px;
+    text-align: center;
+    border: double;
+    border-color: rgba(231, 175, 138, 0.705);
+    width: 350px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 45px;
+    background-color: antiquewhite;        
+}
+
+#texto-05{
+    font-size: 17px;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    border: double;
+    border-color: rgba(231, 175, 138, 0.705);
+    background-color: antiquewhite; 
+    padding: 20px;  
+}
+
+#span-01{
+    font-size: 20px;
+    background-color: rgba(231, 175, 138, 0.705);
+    padding: 5px;
+    border-radius: 5px;
+}

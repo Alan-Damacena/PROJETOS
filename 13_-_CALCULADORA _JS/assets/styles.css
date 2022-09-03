@@ -1,0 +1,12 @@
+*{
+    background-color: rgb(6, 6, 85);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    padding-top: 360px;
+}

@@ -1,0 +1,128 @@
+*{
+    padding: auto;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url(./00-fundo.jpg);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+
+#imagem-01{
+    border-radius: 120px;
+    border: 10px solid white;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+#imagem-02{
+    border-radius: 120px;
+    border: 10px solid white;
+    height: 60px;  
+    position: relative; top: 20px; right: 10px; 
+}
+
+#imagem-03{
+    height: 30px;  
+    position: relative; top: 10px;  
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+#container-02{
+    background-color: white;
+    height: 100%;
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 50px;  
+}
+
+#container-03{
+    display: flex;
+    justify-content: center;   
+}
+
+#texto-01{
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    width: 240px;
+    height: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px;
+}
+
+#texto-02{
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    height: 35px;
+    margin-top: 30px;  
+    padding-bottom: 15px;
+    width: 240px;   
+    text-align: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+#texto-03{
+    border-radius: 30px;
+    background-color: rgb(0, 119, 255);
+    border: 1px solid rgb(0, 119, 255);
+    height: 35px;
+    margin-top: 20px;  
+    padding-bottom: 20px;
+    width: 300px;   
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#texto-04{
+    font-size: 10px;
+    width: 300px;
+}
+
+#texto-05{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#texto-06{
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    height: 35px;
+    width: 280px;   
+    text-align: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(35, 122, 223);
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+#span-01{
+    color: rgb(0, 119, 255);
+}
+
+#texto-01:hover, #texto-02:hover, #texto-03:hover, #texto-06:hover{
+    border: 2px solid black;
+}

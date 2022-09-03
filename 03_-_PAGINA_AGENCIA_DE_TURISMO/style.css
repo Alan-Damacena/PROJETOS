@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{ 
+    display: flex; /* Para deixar os conteúdos desse bloco na mesma linha */
+    background-color: blue;
+    color: white;
+    justify-content: space-between; /* Para dar um espaço entre os dois blocos (cada um em um canto) */
+    padding: 10px;
+    align-items: center; /* Alinha os itens no centro do bloco */
+    flex-wrap: wrap; /* Quando diminuir a tela, os textos serão quebrados para baixo */
+}
+
+.container-1{
+    display: flex; 
+}
+
+.string1{
+    margin-left: 110px;
+}
+
+.string2{
+    margin-right: 80px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+.img-01{
+    height: 250px;
+    width: 400px;
+    margin-right: 180px;
+}
+
+.container-3{
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.container-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-5{
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+}
+
+.img-02{
+    height: 250px;
+    width: 400px;
+    margin-left: 150px;
+}
+
+.container-6{
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-7{
+    display: flex;
+}
+
+.container-8{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+.string3{
+    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px; /* topo, direita, baixo, esquerda */
+}
+
+.container-9{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container-10{
+    display: flex;
+    text-align: center;
+}
+
+.container-11{
+    border: 4px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 30px;
+    width: 300px;
+    height: 100%;
+}
+
+ 
+li{
+    list-style-type: none;
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.container-12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.container-13{
+    display: flex;
+    background-color: blue;
+    color: white;
+    justify-content: space-between; 
+    padding: 0px 100px 0px 100px;
+    align-items: center; 
+    flex-wrap: wrap; 
+    font-weight: bold;
+}
