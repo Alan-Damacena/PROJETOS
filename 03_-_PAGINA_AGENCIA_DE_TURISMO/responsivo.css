@@ -1,20 +1,110 @@
-/*Dispostivos Médios (Tablets deitados, 768px para cima) */
-@media only screen and (max-width: 992px) {
-   
-}
-
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
 @media only screen and (max-width: 768px) {
    
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+    
+h1{
+    font-size: 26px;
+}
+    
+.container{
+    padding: 10px;
+    font-size: 10px;
+}
+        
+.string1{
+    margin-left: 10px;
+}
+        
+.string2{
+    margin-right: 0px;
+}
+    
+.container-3{   
+    margin: auto;
+    padding-left: 80px;
+}
+    
+.img-01{
+    width: 220px;
+    height: 160px;
+    margin-left: 200px;
+}
+
+.img-02{
+    width: 220px;
+    height: 160px;
+}
+    
+.container-5{
+    margin: 20px;
+    padding: 40px;
+}
+    
+.container-6{
+    margin-top: 10px;
+}
+        
+.container-7{
+    width: 100%;
+    display: block;
+}
+        
+.container-8{
+    margin: 10px;
+}
+        
+.string3{
+    padding: 5px;
+    font-size: 12px;
+}
+    
+.container-9{
+    margin-top: 50px;
+}
+    
+.container-10{
+    display: flex;
+    margin: 10px;
+}
+    
+.container-11{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0px 10px 20px 0px;
+    width: 100%;
+    font-size: 14px;     
+}
+     
+li{
+    margin: 5px;
+    padding: 5px;
+}
+    
+.container-12{
+    padding: 5px;  
+}
+    
+.container-13{
+    font-size: 15px;
+    padding: 20px;
+}
+
 }
 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {
 
 *{
-    max-width: 600px;
     margin: 0 auto;
     padding: 0 auto;
+}
+
+h1{
+    font-size: 20px;
 }
 
 .container{
@@ -49,7 +139,8 @@
 }
     
 .container-7{
-    
+    width: 100%;
+    display: block;
 }
     
 .container-8{
@@ -57,53 +148,40 @@
 }
     
 .string3{
-    padding: 10px;
+    padding: 5px;
+    font-size: 12px;
 }
 
 .container-9{
     margin-top: 50px;
+
 }
 
 .container-10{
-
+    display: block;
+    margin: 10px;
 }
 
 .container-11{
     border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-    width: 100px;
-    font-size: 13px;
+    padding: 5px;
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+    font-size: 14px;
 }
-
  
 li{
-    list-style-type: none;
-    text-decoration: none;
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
 }
 
 .container-12{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
+    padding: 5px;
 }
 
 .container-13{
-    display: flex;
-    background-color: blue;
-    color: white;
-    justify-content: space-between; 
-    padding: 0px 100px 0px 100px;
-    align-items: center; 
-    flex-wrap: wrap; 
-    font-weight: bold;
+    font-size: 10px;
+    padding: 10px;
 }
-
-
 
 }
