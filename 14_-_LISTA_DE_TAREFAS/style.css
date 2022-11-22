@@ -58,6 +58,16 @@ main{
     height: 80px;
     width: 100%;
     box-shadow: 0 0 20px #ccc;
+    margin-bottom: 2%;
+}
+
+.item.clicado{
+    background: #d4f6d9;
+}
+
+.item.clicado .item-nome{
+    text-decoration: line-through;
+    color: gray;
 }
 
 .item-icone{
@@ -83,4 +93,9 @@ main{
     padding: 10px;
     height: 80px;
     width: 100%;
+}
+
+.mdi-check-circle{
+    color: green;
+
 }
