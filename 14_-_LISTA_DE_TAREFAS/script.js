@@ -13,11 +13,28 @@ function addTarefa() {
             <i class="mdi mdi-check-circle"></i>
         </div>
         <div class="item-nome">
-            Teste de Tarefa
+            ${valorInput}
         </div>
         <div class="item-botao">
             <button class="delete"><i class="mdi mdi-delete"> Deletar </i></button>
         </div>
     </div>`;
+    
+    //ADICIONAR NOVO ITEM NO MAIN
+    main.innerHTML += novoItem;
+
+    //ZERAR OS CAMPINHOS
+    input.value = "";
+    input.focus();
+
     }
+
 }
+
+input.addEventListener("keyup", function(event){
+    if(event.keyCode === 13){
+        event.preventDefault
+        btnAdd.click();
+    }
+
+})
